@@ -1,0 +1,77 @@
+/* TODO: Сделать ещё типов шрифтов */
+
+@font-face {
+    font-family: Poppins;
+    src: url('Poppins-Regular.ttf');
+}
+
+body{
+    background-color: #e7e7e7;
+}
+
+.container {
+    max-width: 352px;
+    overflow: hidden;
+    border-radius: 3px;
+}   
+
+.conversation {
+    font-family: Poppins;
+    width: 350px;
+    height: 75px;
+    display: flex;
+    background-color: #fff;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.032);
+    margin-bottom: 1px;
+}
+
+.content {
+    display: flex;
+    margin: 16px 10px 0 8px;
+    flex-direction: column;
+    gap: 2;
+    width: 100%;
+}
+
+.avatar {
+    width: 50px;
+   
+}
+
+.avatar_photo{
+    position: relative;
+    height: 24px;
+    width: 24px;
+    border-radius: 50%;
+    top: 14px;
+    left: 14px;
+    
+}
+
+.conversation_header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.conversation_text_content {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.name {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.date {
+    font-size: 10px;
+    color: #90A0B7;
+}
+
+.message {
+    font-size: 12px;
+    color: #656a6f;;
+    
+}
+
