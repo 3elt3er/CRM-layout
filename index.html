@@ -5,17 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="reset.css"/>
     <link rel="stylesheet" href="styles.css"/>
+    <link rel="stylesheet" href="main.css"/>
+    <link rel="stylesheet" href="/fonts/fonts.css"/>
     <title>Messager</title>
 </head>
 <body>
-
-    
-    <div class="container">
-
-        <!--Default-->
-        <div class="conversation"  tabindex="0">
+    <ul class="container">
+        <!-- Стандартное состояние -->
+        <li class="conversation" tabindex="0">
             <div class="avatar">
-                <img src="/avartars/avatar_artem.jpg" alt="Avatar" class="avatar_photo"/>
+                <img src="/assets/avatar_artem.jpg" alt="Avatar" class="avatar_photo"/>
             </div>
             <div class="content">
                 <div class="conversation_header">
@@ -24,15 +23,15 @@
                 </div>
                 <div class="conversation_text_content">
                     <span class="message">Вы: Какая сегодня погода?</span>
-                    <div></div>
+                    <div><!-- Количество непрочитанных сообщений, тип численный --></div>
                 </div>
             </div>
-        </div>
-        
-        <!--Выбранный диалог-->
-        <div class="conversation conv_selected"  tabindex="0">
+        </li>
+
+        <!-- Выбранный диалог -->
+        <li class="conversation conversation_selected"  tabindex="0">
             <div class="avatar">
-                <img src="/avartars/avatar_maxim.jpg" alt="Avatar" class="avatar_photo"/>
+                <img src="/assets/avatar_maxim.jpg" alt="Avatar" class="avatar_photo"/>
             </div>
             <div class="content">
                 <div class="conversation_header">
@@ -41,15 +40,15 @@
                 </div>
                 <div class="conversation_text_content">
                     <span class="message">Содержание сообщения</span>
-                    <div></div>
+                    <div><!-- Количество непрочитанных сообщений, тип численный --></div>
                 </div>
             </div>
-        </div>
+        </li>
 
-        <!--Непрочитанное сообщение-->
-        <div class="conversation conv_unanswered"  tabindex="0">
+        <!-- Непрочитанное сообщение -->
+        <li class="conversation conversation_unanswered"  tabindex="0">
             <div class="avatar">
-                <img src="/avartars/avatar_sofien.jpg" alt="Avatar" class="avatar_photo"/>
+                <img src="/assets/avatar_sofien.jpg" alt="Avatar" class="avatar_photo"/>
             </div>
             <div class="content">
                 <div class="conversation_header">
@@ -63,12 +62,12 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </li>
 
-        <!--Написано длинное сообщение-->
-        <div class="conversation conv_unanswered"  tabindex="0">
+        <!-- Написано длинное сообщение -->
+        <li class="conversation conversation_unanswered"  tabindex="0">
             <div class="avatar">
-                <img src="/avartars/empty_avatar.svg" alt="Avatar" class="avatar_photo"/>
+                <img src="/assets/empty_avatar.svg" alt="Avatar" class="avatar_photo"/>
             </div>
             <div class="content">
                 <div class="conversation_header">
@@ -82,12 +81,12 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </li>
 
-        <!--Is typing a message -->
-        <div class="conversation" tabindex="0">
+        <!-- Собеседник печатает сообщение -->
+        <li class="conversation" tabindex="0">
             <div class="avatar">
-                <img src="/avartars/avatar_angelina.jpg" alt="Avatar" class="avatar_photo"/>
+                <img src="/assets/avatar_angelina.jpg" alt="Avatar" class="avatar_photo"/>
             </div>
             <div class="content">
                 <div class="conversation_header">
@@ -97,16 +96,15 @@
                 <div class="conversation_text_content">
                     <!-- Имя не вставляется само, доделать -->
                     <span class="message is_typing_message">Ангелина печатает сообщение...</span> 
-                    <div></div>
+                    <div><!-- Количество непрочитанных сообщений, тип численный --></div>
                 </div>
             </div>
-        </div>
+        </li>
 
-        <!--Unanswered-->
-
-        <div class="conversation"  tabindex="0">
+        <!-- Диалог, на который не ответили -->
+        <li class="conversation"  tabindex="0">
             <div class="avatar">
-                <img src="/avartars/avatar_kirill.jpg" alt="Avatar" class="avatar_photo"/>
+                <img src="/assets/avatar_kirill.jpg" alt="Avatar" class="avatar_photo"/>
             </div>
             <div class="content">
                 <div class="conversation_header">
@@ -115,12 +113,10 @@
                 </div>
                 <div class="conversation_text_content">
                     <span class="message unanswered_message">Вы: Привет!</span>
-                    <div></div>
+                    <div><!-- Количество непрочитанных сообщений, тип численный --></div>
                 </div>
             </div>
-        </div>
-
-
-    </div>
+        </li>
+    </ul>
 </body>
 </html>
