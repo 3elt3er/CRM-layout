@@ -1,0 +1,103 @@
+body
+    padding: 10px
+    background-color: #e7e7e7
+
+.container 
+    max-width: 352px
+    border-radius: 3px
+    gap: 1pxs
+    flex-direction: column
+    display: flex
+    overflow: hidden
+    overflow-y: auto
+    color:#000
+
+.conversation 
+    width: 100%
+    display: flex
+    background-color: #fff
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.032)
+    font-family: "Poppins", "Roboto", sans-serif
+    cursor: pointer
+
+.conversation_unanswered 
+    background-color:#ffffff9d
+
+.conversation_selected 
+    border-right: 2px solid #109CF1
+
+.content 
+    width: 100%
+    margin: 16px 8px 16px 8px
+    gap: 8px
+    display: flex
+    flex-direction: column
+
+.avatar 
+    margin: 10px 2px 0 16px
+
+.avatar_photo 
+    height: 42px
+    width: 42px
+    border-radius: 100%
+
+.conversation_header 
+    display: flex
+    justify-content: space-between
+
+.conversation_text_content 
+    display: flex
+    justify-content: space-between
+
+.name 
+    font-size: 14px
+    font-weight: 600
+
+.name_selected 
+    color: #109CF1
+
+.date 
+    color: #90A0B7
+    font-size: 10px
+    font-weight: 500
+
+.message 
+    max-width: 200px
+    text-overflow: ellipsis
+    overflow: hidden
+    white-space: nowrap
+    color: #656a6f
+    font-size: 12px
+
+.is_typing_message 
+    color: #a19f9f
+
+.unanswered_message 
+    border-radius: 3px
+    padding-left: 2px
+    background-color: #3734341a
+
+.counter 
+    text-align: center
+    padding: 2px 7px
+    border-radius: 4px
+    color: #fff
+    background-color: #109CF1
+    font-size: 9px
+    font-weight: 600
+
+.conversation:focus-visible 
+    outline: none
+    background-color: #ffffff9d
+    box-shadow: inset 0 0 0 1px #109CF1
+
+.conversation:hover 
+    background-color: #ffffff9d
+ 
+.conversation:initial 
+    border-right: initial
+    background-color: #fff
+    color: initial
+
+.conversation:active 
+    background-color: #ffffff48
