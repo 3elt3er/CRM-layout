@@ -6,7 +6,7 @@ body {
 .container {
   max-width: 352px;
   border-radius: 3px;
-  gap: 1pxs;
+  gap: 1px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
@@ -29,6 +29,18 @@ body {
           box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.032);
   font-family: "Poppins", "Roboto", sans-serif;
   cursor: pointer;
+}
+.conversation:focus-visible {
+  outline: none;
+  background-color: rgba(255, 255, 255, 0.6156862745);
+  -webkit-box-shadow: inset 0 0 0 1px #109CF1;
+          box-shadow: inset 0 0 0 1px #109CF1;
+}
+.conversation:hover {
+  background-color: rgba(255, 255, 255, 0.6156862745);
+}
+.conversation:active {
+  background-color: rgba(255, 255, 255, 0.2823529412);
 }
 
 .conversation_unanswered {
@@ -115,32 +127,11 @@ body {
 }
 
 .counter {
-  text-align: center;
   padding: 2px 7px;
   border-radius: 4px;
   color: #fff;
   background-color: #109CF1;
   font-size: 9px;
   font-weight: 600;
-}
-
-.conversation:focus-visible {
-  outline: none;
-  background-color: rgba(255, 255, 255, 0.6156862745);
-  -webkit-box-shadow: inset 0 0 0 1px #109CF1;
-          box-shadow: inset 0 0 0 1px #109CF1;
-}
-
-.conversation:hover {
-  background-color: rgba(255, 255, 255, 0.6156862745);
-}
-
-.conversation:initial {
-  border-right: initial;
-  background-color: #fff;
-  color: initial;
-}
-
-.conversation:active {
-  background-color: rgba(255, 255, 255, 0.2823529412);
+  text-align: center;
 }

@@ -3,7 +3,7 @@
     src: url('Poppins-Regular.ttf');
 }
 
-body{
+body {
     background-color: #e7e7e7;
 }
 
@@ -35,7 +35,7 @@ body{
     width: 50px;
 }
 
-.avatar_photo{
+.avatar_photo {
     position: relative;
     height: 24px;
     width: 24px;
