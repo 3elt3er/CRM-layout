@@ -2,65 +2,65 @@
   font-family: "Poppins";
   font-style: normal;
   font-weight: 300;
-  src: url("/build/fonts/Poppins-Light.ttf") format("ttf");
+  src: url("/src/fonts/Poppins-Light.ttf") format("ttf");
 }
 @font-face {
   font-family: "Poppins";
   font-style: italic;
   font-weight: 300;
-  src: url("/build/fonts/Poppins-LightItalic.ttf") format("ttf");
+  src: url("/src/fonts/Poppins-LightItalic.ttf") format("ttf");
 }
 @font-face {
   font-family: "Poppins";
   font-style: normal;
   font-weight: 400;
-  src: url("/build/fonts/Poppins-Regular.ttf") format("ttf");
+  src: url("/src/fonts/Poppins-Regular.ttf") format("ttf");
 }
 @font-face {
   font-family: "Poppins";
   font-style: normal;
   font-weight: 500;
-  src: url("/build/fonts/Poppins-Medium.ttf") format("ttf");
+  src: url("/src/fonts/Poppins-Medium.ttf") format("ttf");
 }
 @font-face {
   font-family: "Poppins";
   font-style: italic;
   font-weight: 500;
-  src: url("/build/fonts/Poppins-MediumItalic.ttf") format("ttf");
+  src: url("/src/fonts/Poppins-MediumItalic.ttf") format("ttf");
 }
 @font-face {
   font-family: "Poppins";
   font-style: normal;
   font-weight: 600;
-  src: url("/build/fonts/Poppins-SemiBold.ttf") format("ttf");
+  src: url("/src/fonts/Poppins-SemiBold.ttf") format("ttf");
 }
 @font-face {
   font-family: "Poppins";
   font-style: italic;
   font-weight: 600;
-  src: url("/build/fonts/Poppins-SemiBoldItalic.ttf") format("ttf");
+  src: url("/src/fonts/Poppins-SemiBoldItalic.ttf") format("ttf");
 }
 @font-face {
   font-family: "Poppins";
   font-style: normal;
   font-weight: 700;
-  src: url("/build/fonts/Poppins-Bold.ttf") format("ttf");
+  src: url("/src/fonts/Poppins-Bold.ttf") format("ttf");
 }
 @font-face {
   font-family: "Poppins";
   font-style: italic;
   font-weight: 700;
-  src: url("/build/fonts/Poppins-BoldItalic.ttf") format("ttf");
+  src: url("/src/fonts/Poppins-BoldItalic.ttf") format("ttf");
 }
 @font-face {
   font-family: "Poppins";
   font-style: normal;
   font-weight: 800;
-  src: url("/build/fonts/Poppins-ExtraBold.ttf") format("ttf");
+  src: url("/src/fonts/Poppins-ExtraBold.ttf") format("ttf");
 }
 @font-face {
   font-family: "Poppins";
   font-style: italic;
   font-weight: 800;
-  src: url("/build/fonts/Poppins-ExtraBoldItalic.ttf") format("ttf");
+  src: url("/src/fonts/Poppins-ExtraBoldItalic.ttf") format("ttf");
 }

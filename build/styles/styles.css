@@ -7,12 +7,7 @@ body {
   max-width: 352px;
   border-radius: 3px;
   gap: 1px;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  display: -webkit-box;
-  display: -ms-flexbox;
+  flex-direction: column;
   display: flex;
   overflow: hidden;
   overflow-y: auto;
@@ -21,20 +16,16 @@ body {
 
 .conversation {
   width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   background-color: #fff;
-  -webkit-box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.032);
-          box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.032);
+  box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.032);
   font-family: "Poppins", "Roboto", sans-serif;
   cursor: pointer;
 }
 .conversation:focus-visible {
   outline: none;
   background-color: rgba(255, 255, 255, 0.6156862745);
-  -webkit-box-shadow: inset 0 0 0 1px #109CF1;
-          box-shadow: inset 0 0 0 1px #109CF1;
+  box-shadow: inset 0 0 0 1px #109CF1;
 }
 .conversation:hover {
   background-color: rgba(255, 255, 255, 0.6156862745);
@@ -55,13 +46,8 @@ body {
   width: 100%;
   margin: 16px 8px 16px 8px;
   gap: 8px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
 }
 
 .avatar {
@@ -75,21 +61,13 @@ body {
 }
 
 .conversation_header {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  justify-content: space-between;
 }
 
 .conversation_text_content {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  justify-content: space-between;
 }
 
 .name {
