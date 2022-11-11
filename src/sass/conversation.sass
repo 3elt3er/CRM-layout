@@ -1,0 +1,79 @@
+$color-blue: #109CF1
+$background-gray: #ffffff9d
+
+@font-face 
+    font-family: Poppins
+    src: url('Poppins-Regular.ttf')
+
+body
+    padding: 10px
+    background-color: #e7e7e7
+
+.container 
+    max-width: 352px
+    border-radius: 3px
+    gap: 1px
+    flex-direction: column
+    display: flex
+    overflow: hidden
+    overflow-y: auto
+    color: #000
+
+.conversation
+    width: 100%
+    display: flex
+    background-color: #fff
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.032)
+    font-family: "Poppins", "Roboto", sans-serif
+    cursor: pointer
+
+    &:focus-visible 
+        outline: none
+        background-color: $background-gray
+        box-shadow: inset 0 0 0 1px $color-blue
+
+    &:hover 
+        background-color: $background-gray
+
+    &:active 
+        background-color: #ffffff48
+
+.content
+    width: 100%
+    margin: 16px 8px 16px 8px
+    gap: 8px
+    display: flex
+    flex-direction: column
+
+.avatar
+    margin: 10px 2px 0 16px
+
+.avatar_photo
+    height: 42px
+    width: 42px
+    border-radius: 100%
+
+.conversation_header
+    display: flex
+    justify-content: space-between
+
+.conversation_text_content
+    display: flex
+    justify-content: space-between
+
+.name
+    font-size: 14px
+    font-weight: 600
+
+.date
+    color: #90A0B7
+    font-size: 10px
+    font-weight: 500
+
+.message
+    max-width: 200px
+    text-overflow: ellipsis
+    overflow: hidden
+    white-space: nowrap
+    color: #656a6f
+    font-size: 12px
